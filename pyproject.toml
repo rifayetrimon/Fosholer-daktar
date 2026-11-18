@@ -1,0 +1,15 @@
+[project]
+name = "fosholer-daktar"
+version = "0.1.0"
+description = "This is my AI doctor for farmers for detect and solution of the plant disease."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.163.2",
+    "pydantic-settings>=2.16.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.5",
+]
