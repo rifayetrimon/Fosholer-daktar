@@ -1,0 +1,30 @@
+[project]
+name = "fosholer-daktar"
+version = "0.1.0"
+description = "This is my AI doctor for farmers for detect and solution of the plant disease."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.13.0",
+    "asyncpg>=0.32.0",
+    "fastapi[standard]>=0.163.2",
+    "google-genai>=3.6.1",
+    "groq>=0.9.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=2.3.0",
+    "passlib[argon2]>=1.7.4",
+    "pgvector>=0.5.1",
+    "pydantic-settings>=2.16.3",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.34",
+    "numpy>=1.26.0",
+    "onnxruntime>=1.19.0",
+    "Pillow>=10.0.0",
+    "pypdf>=5.0.0",
+    "sqlalchemy[asyncio]>=2.1.9",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.5",
+]
